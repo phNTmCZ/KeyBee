@@ -3,10 +3,12 @@
 ### MX Master 3S mouse on Linux
 Several libraries need to be installed on your system in order to run Logiops. Run the following command in a terminal window to install them:
 
-`sudo apt install cmake libevdev-dev libudev-dev libconfig++-dev
-
-`git clone https://github.com/PixlOne/logiops.git
-
+deps:
+```
+sudo apt install cmake libevdev-dev libudev-dev libconfig++-dev
+git clone https://github.com/PixlOne/logiops.git
+```
+make:
 ```
 cd logiops
 mkdir build
@@ -14,7 +16,7 @@ cd build
 cmake ..
 make
 ```
-touch /etc/logid.cfg
+create -> /etc/logid.cfg:
 ```
 devices: (
 {
@@ -116,13 +118,17 @@ buttons: (
   });
 });
 ```
+make it twerg:
+```
 sudo make install
 sudo systemctl enable --now logid
-
+```
 ...missing a library? No prob:
+```
 sudo apt-get install libglib2.0-dev
-;] done
-
+```
+**;] done
+**
 ----
 
 
