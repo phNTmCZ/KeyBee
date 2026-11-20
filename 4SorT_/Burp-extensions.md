@@ -1,7 +1,7 @@
 ---
 title: Burp Suite – 12 essential BApp extensions
-tags: [burp-suite, bapp-store, web-pentest, authz, idor, jwt, graphql, race-condition, oast, request-smuggling]
-source: "Burp Suite on Steroids: 12 Extensions That Feel Like Cheating" – Devansh Patel, MeetCyber (Medium), 2026-09-21
+tags: (burp-suite, bapp-store, web-pentest, authz, idor, jwt, graphql, race-condition, oast, request-smuggling)
+Medium: "Burp Suite on Steroids: 12 Extensions That Feel Like Cheating" by Devansh Patel, MeetCyber (Medium), 2026-09-21
 captured: 2026-11-20
 ---
 
